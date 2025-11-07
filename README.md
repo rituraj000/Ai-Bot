@@ -125,30 +125,6 @@ def sort_list(items):
 
 ---
 
-## 🔧 Configuration
-
-### Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `GOOGLE_GENERATIVE_AI_API_KEY` | Your Google AI API key | ✅ |
-
-### Customization
-
-Want to customize the AI behavior? Edit `app/api/chat/route.ts`:
-
-```typescript
-const result = streamText({
-  model: google("gemini-2.0-flash"),
-  messages: convertToModelMessages(messages),
-  // Add custom parameters here
-  temperature: 0.7,
-  maxTokens: 1000,
-});
-```
-
----
-
 ## 🚀 Deployment
 
 ### Deploy on Vercel (Recommended)
@@ -209,7 +185,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Made with ❤️ by [rituraj000](https://github.com/rituraj000)**
+**Made with ❤️ by [rituraj](https://github.com/rituraj000)**
 
 ⭐ **Star this repo if you found it helpful!** ⭐
 
