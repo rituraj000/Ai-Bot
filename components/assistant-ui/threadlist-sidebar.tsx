@@ -19,6 +19,7 @@ export function ThreadListSidebar({
   return (
     <Sidebar {...props}>
       <SidebarHeader className="aui-sidebar-header mb-2 border-b">
+        {/* Updated: Raj Bot links to portfolio, GitHub to repository - Nov 7, 2025 */}
         <div className="aui-sidebar-header-content flex items-center justify-between">
           <SidebarMenu>
             <SidebarMenuItem>
