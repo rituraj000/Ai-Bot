@@ -52,7 +52,7 @@ export function ThreadListSidebar({
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
               <Link
-                href="https://github.com/rituraj000/MY-AI-bot"
+                href="https://github.com/rituraj000/Ai-Bot"
                 target="_blank"
               >
                 <div className="aui-sidebar-footer-icon-wrapper flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
