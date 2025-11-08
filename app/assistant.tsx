@@ -42,7 +42,7 @@ export const Assistant = () => {
                 <BreadcrumbList>
                   <BreadcrumbItem className="hidden md:block">
                     <BreadcrumbLink
-                      href="https://github.com/rituraj000/MY-AI-bot"
+                      href="https://3-d-portfolio-one-beryl.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
